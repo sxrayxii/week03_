@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>canvas - overlay</title>
+	<style>
+		#img-src {
+			display: none; /* ซ่อนรูปภาพต้นฉบับ */
+		}
+		#myCanvas {
+			border: 1px solid black; /* กรอบสำหรับ canvas */
+			background-color: #f0f0f0; /* สีพื้นหลังของ canvas */
+			position: relative;
+			display: block;
+		}
+	</style>
+	<script src="04-overlay-canvas.js" type="module"></script>
+</head>
+<body>
+	<img id="img-src" src="traffic.jpg" alt="traffic">
+	<button type="button" id="add">เพิ่ม overlay</button>
+	<button type="button" id="rem">ลด overlay</button>
+	<canvas id="myCanvas" width="800" height="600"></canvas>
+</body>
+</html>
