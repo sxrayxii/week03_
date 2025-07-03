@@ -1,5 +1,8 @@
 import { getContext } from "./week03-module.js";
 
+// ไปดูคำสั่งเกี่ยวกับอุปกรณ์ได้ที่ https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices
+// ไปดูคำสั่งเพื่อ access อุปกรณ์ได้ที่ https://developer.mozilla.org/en-US/docs/Web/API/Navigator
+
 document.addEventListener("DOMContentLoaded", function() {
 	// เข้าถึง context ของ canvas
 	// โดยใช้โมดูลที่สร้างขึ้น
