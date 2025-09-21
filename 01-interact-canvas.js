@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	const ctx = getContext("#myCanvas"); // ใช้ ID ของ canvas ที่ต้องการเข้าถึง
 
 	// input ตัวอย่าง keyboard, mouse, touch
-	let keys = {};
+	let keys = {}; //key = object
 	document.addEventListener("keydown", function(event) {
 		keys[event.key] = true; // บันทึกปุ่มที่กด
 	});
